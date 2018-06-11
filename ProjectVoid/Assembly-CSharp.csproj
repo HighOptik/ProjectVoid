@@ -59,40 +59,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Blade_Turret.cs" />
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Camera16x9.cs" />
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Example_Motion_Controller.cs" />
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Grenade_Target.cs" />
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Gun_Turret.cs" />
-    <Compile Include="Assets\Marines_And_Turrets\Scripts\Shield_Turret.cs" />
-    <Compile Include="Assets\Medieval_Warriors_Pack\Scripts\Camera16x9.cs" />
-    <Compile Include="Assets\Medieval_Warriors_Pack\Scripts\Example_Motion_Attack_Shield_Controller.cs" />
-    <Compile Include="Assets\Medieval_Warriors_Pack\Scripts\Example_Motion_Controller.cs" />
-    <Compile Include="Assets\Monsters_Pirates_Pack\Scripts\Example_Motion_Attack_Controller.cs" />
-    <Compile Include="Assets\Monsters_Pirates_Pack\Scripts\Example_Motion_Controller.cs" />
-    <Compile Include="Assets\PackVol2\Scripts\camera.cs" />
-    <Compile Include="Assets\PackVol2\Scripts\Change_Scenes.cs" />
-    <Compile Include="Assets\PackVol2\Scripts\Example_Motion_Controller.cs" />
-    <Compile Include="Assets\RPG_Pack\Scripts\Camera16x9.cs" />
-    <Compile Include="Assets\RPG_Pack\Scripts\Example_Motion_Attack_Controller.cs" />
-    <Compile Include="Assets\RPG_Pack\Scripts\Example_Simple_Enemy_Controller.cs" />
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <None Include="Assets\RPG_Pack\Contact_Info.txt" />
-    <None Include="Assets\Marines_And_Turrets\Contact_Info.txt" />
-    <None Include="Assets\Medieval_Warriors_Pack\About_Shield_Mode.txt" />
-    <None Include="Assets\Marines_And_Turrets\General_Info.txt" />
-    <None Include="Assets\RPG_Pack\Global_Info.txt" />
-    <None Include="Assets\PackVol2\Space_Warrior\Space_Warrior_With_Red_Light\Readme.txt" />
-    <None Include="Assets\Medieval_Warriors_Pack\Contact_Info.txt" />
-    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <Compile Include="Assets\Scripts\BodyList.cs" />
+    <Compile Include="Assets\Scripts\HeadList.cs" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\DownloadedAssets\Marines_And_Turrets\Contact_Info.txt" />
+    <None Include="Assets\TimeFantasy_RPG_Characters\READ_ME.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\DownloadedAssets\Medieval_Warriors_Pack\About_Shield_Mode.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\DownloadedAssets\Marines_And_Turrets\General_Info.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\DownloadedAssets\PackVol2\Space_Warrior\Space_Warrior_With_Red_Light\Readme.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\DownloadedAssets\Medieval_Warriors_Pack\Contact_Info.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\DownloadedAssets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\DownloadedAssets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Mike/Documents/GitHub/ProjectVoid/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -324,12 +333,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5A6AE740-6CF9-CE9B-8DB7-E36FB98EC08C}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
