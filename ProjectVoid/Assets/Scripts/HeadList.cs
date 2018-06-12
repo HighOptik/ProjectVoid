@@ -29,7 +29,13 @@ public class HeadList : MonoBehaviour
     }
     public void Next()
     {
+        int prevNumb = currentlyDisplayed;
         currentlyDisplayed = Random.Range(0, AllSprites.Count);
+        if (prevNumb == currentlyDisplayed)
+        {
+            currentlyDisplayed = Random.Range(0, AllSprites.Count);
+        }
         DisplayCurrent();
+
     }
 }
