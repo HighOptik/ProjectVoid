@@ -92,6 +92,7 @@
     <None Include="Assets\DownloadedAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\2D_Pixel_Art_Isometric_Blocks_Devils_Garage_v04\readme.txt" />
     <None Include="Assets\DownloadedAssets\Medieval_Warriors_Pack\Contact_Info.txt" />
+    <None Include="Assets\SpaceGUI\fonts\LICENSE.txt" />
     <None Include="Assets\DownloadedAssets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\DownloadedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\DownloadedAssets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
